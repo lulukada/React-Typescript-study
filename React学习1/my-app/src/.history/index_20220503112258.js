@@ -58,9 +58,7 @@ class Board extends React.Component {
         this.setState({ squares: squares })
     }
 
-    // 这个函数是渲染的时候会自动调用吗?
     renderSquare(i) {
-
         // 将一个名为value的prop传递到Square中去
         // 依次将0-8的值通过prop从Board向下传递,从而让它们显示出来
 

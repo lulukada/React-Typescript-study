@@ -53,19 +53,14 @@ class Board extends React.Component {
     handleClick(i) {
         // 用slice()方法创建了squares数组的一个副本
         const squares = this.state.squares.slice()
-        // 保存变化
         squares[i] = "X"
         this.setState({ squares: squares })
     }
 
-    // 这个函数是渲染的时候会自动调用吗?
     renderSquare(i) {
-
         // 将一个名为value的prop传递到Square中去
         // 依次将0-8的值通过prop从Board向下传递,从而让它们显示出来
-
         console.log(this.state.squares);
-
         return (<Square
             value1={this.state.squares[i]}
             onClick={() => this.handleClick(i)}

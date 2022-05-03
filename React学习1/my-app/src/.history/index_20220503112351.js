@@ -58,7 +58,7 @@ class Board extends React.Component {
         this.setState({ squares: squares })
     }
 
-    // 这个函数是渲染的时候会自动调用吗?
+    // 这个函数是渲染是时候会自动调用吗?
     renderSquare(i) {
 
         // 将一个名为value的prop传递到Square中去
