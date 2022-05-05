@@ -91,6 +91,7 @@ class Board extends React.Component {
         // const status = 'Next player: ' + this.state.xIsNext ? 'X' : 'O';
         const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         // const status = this.state.xIsNext ? 'X' : 'O';
+        console.log(status);
 
         return (
             <div>

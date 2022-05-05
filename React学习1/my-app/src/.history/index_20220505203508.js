@@ -79,7 +79,7 @@ class Board extends React.Component {
     renderSquare(i) {
         // 将一个名为value的prop传递到Square中去
         // 依次将0-8的值通过prop从Board向下传递,从而让它们显示出来
-        // console.log(this.state.squares);
+        console.log(this.state.squares);
 
         return (<Square
             value={this.state.squares[i]}
@@ -88,9 +88,7 @@ class Board extends React.Component {
     }
 
     render() {
-        // const status = 'Next player: ' + this.state.xIsNext ? 'X' : 'O';
-        const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
-        // const status = this.state.xIsNext ? 'X' : 'O';
+        const status = 'Next player: X';
 
         return (
             <div>
