@@ -53,18 +53,29 @@ function Square(props) {
 // Board组件渲染了9个方块,用来模拟棋盘格子
 class Board extends React.Component {
     // 状态提升到了Game中，Board中的构造器就不在需要了
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         // 用来保存子组件的state状态,再通过props将状态传递到子组件当中,可以方便组件状态数据之间的同步共享
-    //         // 命名是否没有要求
-    //         // 如何查看squares里面存的值呢
-    //         squares: Array(9).fill(null),
-    //         // 设置默认的第一步棋子（X） 后续棋子每走一步，该值都要反转一次
-    //         xIsNext: true
-    //     }
-    // }
+    constructor(props) {
+        super(props);
+        this.state = {
+            // 用来保存子组件的state状态,再通过props将状态传递到子组件当中,可以方便组件状态数据之间的同步共享
+            // 命名是否没有要求
+            // 如何查看squares里面存的值呢
+            squares: Array(9).fill(null),
+            // 设置默认的第一步棋子（X） 后续棋子每走一步，该值都要反转一次
+            xIsNext: true
+        }
+    }
 
+    handleClick(i) {
+        // 用slice()方法创建了squares数组的一个副本，在副本上进行修改（浅拷贝）
+        const squares = this.state.squares.slice()
+
+        // 保存变化
+        squares[i] = this.state.xIsNext ? "X" : "O"
+        this.setState({
+            squares: squares,
+            xIsNext: !this.state.xIsNext,
+        })
+    }
 
     // 这个函数是渲染的时候会自动调用吗?
     renderSquare(i) {
@@ -73,8 +84,8 @@ class Board extends React.Component {
         // console.log(this.state.squares);
 
         return (<Square
-            value={this.props.squares[i]}
-            onClick={() => this.props.onClick(i)}
+            value={this.state.squares[i]}
+            onClick={() => this.handleClick(i)}
         />);
     }
 
@@ -82,17 +93,17 @@ class Board extends React.Component {
         // const status = 'Next player: ' + this.state.xIsNext ? 'X' : 'O';
         //const status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         // const status = this.state.xIsNext ? 'X' : 'O';
-        // const winner = calculateWinner(this.state.squares);
-        // let status
-        // if (winner) {
-        //     status = 'winner:' + winner;
-        // } else {
-        //     status = 'Next player:' + (this.state.xIsNext ? 'X' : 'O');
-        // }
+        const winner = calculateWinner(this.state.squares);
+        let status
+        if (winner) {
+            status = 'winner:' + winner;
+        } else {
+            status = 'Next player:' + (this.state.xIsNext ? 'X' : 'O');
+        }
 
         return (
             <div>
-                {/* <div className="status">{status}</div> */}
+                <div className="status">{status}</div>
                 <div className="board-row">
                     {this.renderSquare(0)}
                     {this.renderSquare(1)}
@@ -115,63 +126,26 @@ class Board extends React.Component {
 
 // Game组件渲染了含有默认值的棋盘
 class Game extends React.Component {
-    // 把history state放在Game组件中，就可以从它的子组件Board里面删除掉square中的state，实现Game组件对Board组件数据的完全控制权
-    constructor(props) {
-        super(props);
-        this.state = {
-            history: [
-                {
-                    squares: Array(9).fill(null)
-                }
-            ],
-            xIsNext: true,
-        }
-    }
-
-    handleClick(i) {
-
-        const history = this.state.history;
-        const current = history[history.length - 1];
-        // 用slice()方法创建了squares数组的一个副本，在副本上进行修改（浅拷贝）
-        const squares = current.squares.slice()
-        // 阻止一个格子的状态反复变化
-        if (calculateWinner(squares) || squares[i]) {
-            return;
-        }
-        // 保存变化
-        squares[i] = this.state.xIsNext ? "X" : "O"
-        this.setState({
-            // 使用concat把新的历史记录拼接到history中---concat不会改变原数组
-            history: history.concat([{
-                squares: squares,
-            }]),
-            xIsNext: !this.state.xIsNext,
-        })
-    }
-
+    // 把history state放在Game组件中，就可以从它的子组件Board里面删除掉square中的state
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         history: [
+    //             {
+    //                 squares: Array(9).fill(null)
+    //             }
+    //         ],
+    //         xIsNext: true,
+    //     }
+    // }
     render() {
-        const history = this.state.history;
-        const current = history[history.length - 1];
-        const winner = calculateWinner(current.squares);
-        let status;
-
-        if (winner) {
-            status = 'winner:' + winner;
-        } else {
-            status = 'Next player:' + (this.state.xIsNext ? 'X' : 'O');
-        }
-
         return (
             <div className="game">
                 <div className="game-board">
-                    <Board
-                        squares={current.squares}
-                        // 父组件可以调用子组件中的函数吗---随后会将该方法移动到Game组件中
-                        onClick={(i) => this.handleClick(i)}
-                    />
+                    <Board />
                 </div>
                 <div className="game-info">
-                    <div>{status}</div>
+                    <div>{/* status */}</div>
                     <ol>{/* TODO */}</ol>
                 </div>
             </div>

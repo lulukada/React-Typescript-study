@@ -141,10 +141,7 @@ class Game extends React.Component {
         // 保存变化
         squares[i] = this.state.xIsNext ? "X" : "O"
         this.setState({
-            // 使用concat把新的历史记录拼接到history中---concat不会改变原数组
-            history: history.concat([{
-                squares: squares,
-            }]),
+            squares: squares,
             xIsNext: !this.state.xIsNext,
         })
     }

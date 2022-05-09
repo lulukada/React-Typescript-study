@@ -65,6 +65,20 @@ class Board extends React.Component {
     //     }
     // }
 
+    handleClick(i) {
+        // 用slice()方法创建了squares数组的一个副本，在副本上进行修改（浅拷贝）
+        const squares = this.state.squares.slice()
+        // 阻止一个格子的状态反复变化
+        if (calculateWinner(squares) || squares[i]) {
+            return;
+        }
+        // 保存变化
+        squares[i] = this.state.xIsNext ? "X" : "O"
+        this.setState({
+            squares: squares,
+            xIsNext: !this.state.xIsNext,
+        })
+    }
 
     // 这个函数是渲染的时候会自动调用吗?
     renderSquare(i) {
@@ -127,28 +141,6 @@ class Game extends React.Component {
             xIsNext: true,
         }
     }
-
-    handleClick(i) {
-
-        const history = this.state.history;
-        const current = history[history.length - 1];
-        // 用slice()方法创建了squares数组的一个副本，在副本上进行修改（浅拷贝）
-        const squares = current.squares.slice()
-        // 阻止一个格子的状态反复变化
-        if (calculateWinner(squares) || squares[i]) {
-            return;
-        }
-        // 保存变化
-        squares[i] = this.state.xIsNext ? "X" : "O"
-        this.setState({
-            // 使用concat把新的历史记录拼接到history中---concat不会改变原数组
-            history: history.concat([{
-                squares: squares,
-            }]),
-            xIsNext: !this.state.xIsNext,
-        })
-    }
-
     render() {
         const history = this.state.history;
         const current = history[history.length - 1];
