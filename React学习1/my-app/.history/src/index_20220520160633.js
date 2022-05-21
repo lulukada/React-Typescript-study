@@ -148,7 +148,6 @@ class Game extends React.Component {
                 squares: squares,
             }]),
             xIsNext: !this.state.xIsNext,
-            stepNumber: history.length
         })
     }
 
@@ -161,9 +160,7 @@ class Game extends React.Component {
 
     render() {
         const history = this.state.history;
-        // const current = history[history.length - 1];
-        // 保证代码从始终根据最后一次移动渲染修改为根据当前stepNumber渲染
-        const current = history[this.state.stepNumber];
+        const current = history[history.length - 1];
         const winner = calculateWinner(current.squares);
 
         // map方法中，第一个参数是数组元素，第二个参数是索引值

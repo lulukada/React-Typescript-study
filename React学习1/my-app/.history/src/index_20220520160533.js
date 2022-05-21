@@ -131,8 +131,7 @@ class Game extends React.Component {
 
     handleClick(i) {
 
-        // const history = this.state.history;
-        const history = this.state.history.slice(0, this.state.stepNumber + 1);
+        const history = this.state.history;
         const current = history[history.length - 1];
         // 用slice()方法创建了squares数组的一个副本，在副本上进行修改（浅拷贝）
         const squares = current.squares.slice()
@@ -148,22 +147,19 @@ class Game extends React.Component {
                 squares: squares,
             }]),
             xIsNext: !this.state.xIsNext,
-            stepNumber: history.length
         })
     }
 
     jumpTo(step) {
         this.setState({
             stepNumber: step,
-            xIsNext: (step % 2) === 0,
+            xIsNext: (step % 2) === 0
         })
     }
 
     render() {
         const history = this.state.history;
-        // const current = history[history.length - 1];
-        // 保证代码从始终根据最后一次移动渲染修改为根据当前stepNumber渲染
-        const current = history[this.state.stepNumber];
+        const current = history[history.length - 1];
         const winner = calculateWinner(current.squares);
 
         // map方法中，第一个参数是数组元素，第二个参数是索引值
