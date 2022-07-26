@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T05:59:51.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LMUjwRn1m8F6kEfMG0MF" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-26T11:50:15.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZEqJWPjZq1AmObUN7l4I" version="20.1.4" type="github">
   <diagram id="Mn_K4a2z4ukTfb5vrJ7c" name="Page-1">
-    <mxGraphModel dx="1949" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2884" dy="1377" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
         <mxCell id="WP6hprnHiG_sowA_D06u-37" value="【七无】选项不可勾选" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1181" y="153" width="126" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-38" value="【七无】选项根据是否为 “云闪购”用户觉得是否可以勾选" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-38" value="【七无】选项根据是否为 “云闪购”用户决定是否可以勾选" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1181.5" y="272" width="128.5" height="56" as="geometry" />
         </mxCell>
         <mxCell id="WP6hprnHiG_sowA_D06u-39" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
