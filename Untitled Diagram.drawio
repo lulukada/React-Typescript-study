@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T11:50:15.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZEqJWPjZq1AmObUN7l4I" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T16:34:55.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kO7XHFAAuCnFhKesY4RL" version="20.2.3" type="github">
   <diagram id="Mn_K4a2z4ukTfb5vrJ7c" name="Page-1">
-    <mxGraphModel dx="2884" dy="1377" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,89 +157,167 @@
         <mxCell id="U4_eQ8hXQtfQl60y-uZD-52" value="直播信息" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="859" y="414" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-1" value="拿到相应，进行开关设置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-1" value="拿到相应，进行开关设置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1543" y="625.5" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="1653" y="581" width="50" height="147" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-4" value="直播中：不允许对开关进行设置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-4" value="直播中：不允许对开关进行设置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1718" y="625.5" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-5" value="直播结束：原先设置失效，变成默认设置项" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-5" value="直播结束：原先设置失效，变成默认设置项" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1718" y="698" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-6" value="开关关闭" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-6" value="开关关闭" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1891" y="500" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-7" value="开关开启：展示可选择的tab项和默认选中项" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-7" value="开关开启：展示可选择的tab项和默认选中项" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1894" y="602" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-8" value="非直播状态：可以对开关状态进行修改" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-8" value="非直播状态：可以对开关状态进行修改" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1715" y="551" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="1827" y="525.5" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-11" value="判断有无“品牌经营入口”展示权限" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-11" value="判断有无“品牌经营入口”展示权限" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1141.5" y="702.5" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="1251.5" y="658" width="50" height="147" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-14" value="&lt;div&gt;服务端返回的liveShopEntranceConf为空&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-14" value="&lt;div&gt;服务端返回的liveShopEntranceConf为空&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1316.5" y="775" width="171.5" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-17" value="服务端返回的liveShopEntranceConf包括默认选中的tab（为0表示开关关闭）和商家已有的tab项列表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-17" value="服务端返回的liveShopEntranceConf包括默认选中的tab（为0表示开关关闭）和商家已有的tab项列表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1315.5" y="621" width="173.5" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-19" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-19" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1258" y="627" width="52" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-20" value="No" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-20" value="No" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1258" y="806" width="52" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1489" y="657" as="sourcePoint" />
             <mxPoint x="1540" y="657" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-28" value="根据【强制七无】字段进行判断" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-28" value="根据【强制七无】字段进行判断" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1140.5" y="949.5" width="100" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="1250.5" y="905" width="50" height="147" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-30" value="保留原有的逻辑" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-30" value="保留原有的逻辑" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1315.5" y="1022" width="171.5" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-31" value="【七无】选项默认勾选，并且不可取消" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-31" value="【七无】选项默认勾选，并且不可取消" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1314.5" y="879" width="173.5" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-32" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-32" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1257" y="874" width="52" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-33" value="No" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-33" value="No" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1257" y="1053" width="52" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-34" value="是否为“订金找货模式”" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-34" value="是否为“订金找货模式”" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1013" y="218" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1152" y="181" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-37" value="【七无】选项不可勾选" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-37" value="【七无】选项不可勾选" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1181" y="153" width="126" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-38" value="【七无】选项根据是否为 “云闪购”用户决定是否可以勾选" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-38" value="【七无】选项根据是否为 “云闪购”用户决定是否可以勾选" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1181.5" y="272" width="128.5" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-39" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-39" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1127" y="148" width="52" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WP6hprnHiG_sowA_D06u-40" value="No" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WP6hprnHiG_sowA_D06u-40" value="No" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1128" y="303" width="52" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-1" value="作者服务-「百应」" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1788" y="186" width="150" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="113.5" width="20" height="187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-3" value="创作工具：剪辑/素材/训练" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1983" y="94" width="217" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-4" value="创意中心：灵感/趋势/案例" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#FF6666;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1983" y="159" width="217" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-5" value="内容服务商：培训/制作/代运营" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1983" y="223" width="217" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-6" value="内容运营工具：中控/预告/人群" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1983" y="285" width="217" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-7" value="&lt;div&gt;保证S3-达人供给&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="504" width="117" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="525.5" as="sourcePoint" />
+            <mxPoint x="2307" y="525.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-10" value="&lt;div&gt;达人成长，产出更多优质内容&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="504" width="117" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-11" value="变现，产生收益" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="504" width="117" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2427" y="515.89" as="sourcePoint" />
+            <mxPoint x="2493.9999999999995" y="515.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2493.9999999999995" y="539.9999999999999" as="sourcePoint" />
+            <mxPoint x="2427" y="539.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-14" value="吸引用户、产生流量" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="597" width="117" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2368.3099999999995" y="547" as="sourcePoint" />
+            <mxPoint x="2368.31" y="597.3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-16" value="延长抖音产品的生命周期" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="597" width="117" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2428" y="618.31" as="sourcePoint" />
+            <mxPoint x="2494.999999999999" y="618.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2427.0000000000005" y="596.6300000000001" as="sourcePoint" />
+            <mxPoint x="2500" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-19" value="吸引更多人变成达人" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=15;strokeColor=#6C8EBF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="408" width="117" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="P1A749sBHKMEy4hyNJwt-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2553.31" y="503.14999999999986" as="sourcePoint" />
+            <mxPoint x="2553.3099999999995" y="452.85000000000014" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
